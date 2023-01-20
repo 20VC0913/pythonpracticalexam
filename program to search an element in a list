@@ -1,0 +1,9 @@
+def search(x,y):
+    if x in y:
+        print("postion of element",x,"is",y.index(x))
+    else:
+        print("the element",x,"does not exist in the given list")
+abc=list(input("enter the elements of the list"))
+print(abc)
+element=input("please enter the element to be searched")
+search(element,abc)
